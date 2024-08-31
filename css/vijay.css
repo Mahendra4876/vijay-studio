@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topbar{
+    height:50px;
+    width:1300px;
+    background-color: rgba(6, 6, 6, 0.779);
+    color:white;
+    position: fixed;
+    
+}
+#logo{
+    color: rgb(150, 8, 150);
+    font-size: large;
+}
+
+.set{
+    
+    display:flex;
+    
+}
+ a{
+    text-decoration: none;
+    color:#e3bf0ef7;
+}
