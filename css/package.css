@@ -59,3 +59,17 @@
     background-color: #a91212;
 
 }
+#box{
+    height:70px;
+    width:300px;
+    background-color: burlywood;
+    border: 2px solid black;
+    color:white;
+    padding: 20px;
+    margin-left: 100px;
+    
+}
+#box a{
+    margin-left: 50px;
+    margin-top: 100px;
+}
