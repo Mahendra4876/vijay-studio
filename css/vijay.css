@@ -1,92 +1,47 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#topbar{
-    height:50px;
-    width:1300px;
-    background-color: rgba(6, 6, 6, 0.779);
-    color:white;
-    position: fixed;
-    
-}
-#logo{
-    color: rgb(150, 8, 150);
-    font-size: large;
-    margin-left: 10px;
-}
-.bar{
-    display: none;
-    position: absolute;
-    right: 10px;
-    top:40px;
-    width:150px;
-    background-image:url(../images/love-marry-me-hd-wallpaper_665280-13659.avif);
-    background-size:auto;
-    transition: height .6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
- }
- .bar a{
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin-bottom: 3px;
-    margin-left:15px;
-    color:white;
-    border-radius: 10px;
- }
- .bar a:hover{
-    color:rgb(130, 137, 12);
- }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/vijay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="topbar"  >
+        <div class="set" >
+    <div id="logo"  ><i class="fa-solid fa-camera" style="color:rgb(157, 6, 157);"></i>VIJAY DIGITAL</div>
+    <div class="mm" > 
+        <a href="./index.html">HOME</a>
+        <a >ABOUT US </a>
+        <a href="./Templates/package.html" >PACKAGES</a>
+        <a href="./Templates/login.html">LOGIN</a>
+        <a>CONTACT US</a>
+        </div>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars fa-beat" ></i>
+            
+        </div>
+        <div class="bar" > 
+            <a href="./index.html">HOME</a></br>
+            <a >ABOUT US </a></br>
+            <a href="./Templates/package.html" >PACKAGES</a></br>
+            <a href="./Templates/login.html">LOGIN</a></br>
+            <a>CONTACT US</a></br>
+            </div>
 
 
-.set{
-    
-    display:flex;
-    
-}
- .toggle_btn i{
-color:rgba(6, 6, 6, 0.779);
-}
- a{
-    text-decoration: none;
-    color:#e3bf0ef7;
-}
-.mm {
-    margin-left: 100px; 
-    padding-left: 10px;
-}
-.mm a{
-    margin-left: 100px;
-    outline: none;
-    border: none ;
-}
- 
-@media screen and (max-width:600px){
-    
-    #topbar{
-        height:500px;
-        width:600px;
-        background-image: url(../images/love-marry-me-hd-wallpaper_665280-13659.avif);
-        background-size: cover;
-        color:white;
-        position: fixed;
-        
-    }.mm{
-        display: none;
-       
-       }
-  .toggle_btn i {
-    color:white ;
-    margin-left: 340px;
-    margin-top: 15px;
-    display: block;
-    height: 50px;
+</header>    
+<script>
+    const toggleBtn = document.querySelector(".toggle_btn")
+    const toggleBtnIcon = document.querySelector(".toggle_btn  i ")
+    const Bar = document.querySelector(".bar")
 
-        }
-  .bar{
-    display: block;
-   
+    toggleBtn.onclick = function () {
+     Bar.classList.toggle('open')
+     const isOpen= Bar.classList.contains('open')
+    }  
 
-}
-}
+</script>    
+
+
+</body>
+</html>
