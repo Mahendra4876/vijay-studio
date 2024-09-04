@@ -1,66 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../css/contact.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    </head>
-    <body>
-        <header id="topbar"  >
-            <div class="set" >
-        <div id="logo"  ><i class="fa-solid fa-camera" style="color:rgb(157, 6, 157);"></i>VIJAY DIGITAL</div>
-        <div class="mm" > 
-            <a href="../index.html">HOME</a>
-            <a >ABOUT US </a>
-            <a href="../Templates/package.html" >PACKAGES</a>
-            <a href="../Templates/contact.html">CONTACT US</a>
-            </div>
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars fa-beat" ></i>
-                
-            </div>
-            <div class="bar" > 
-                <a href="../index.html">HOME</a></br>
-                <a >ABOUT US </a></br>
-                <a href="../Templates/package.html" >PACKAGES</a></br>
-                <a href="#" id="j">CONTACT US</a></br>
-                </div>
-    
-    
-    </header> 
-    <div class="hi">
-        
-         <p>Contact Us -  Today to Begin Your Creative Journey</p>
-    </div> 
-    
-    <div class="content">
-        <div>
-           <div id="lo">
-        <b><p><img src="../images/ra-removebg-preview 3.png" height="40px"  width="80px"> Vijay Digitial</p></b></div>
-        <p id="t">Contact Info</p>
-        
-    </div>  
-    <div class="info">
-        <ul>
-        <li><b>Email</b> : vijaykumarpd@gmail.com</li>
-        <li><b>Phone/Whats App </b>: +91 7799808779</li>
-        <li><b>Address</b>:Mopidevi,Mopidevi Mandal,Krishna Distric,A.P </li>
-        <li><b>Social Media Contact</b></br>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/vijay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="topbar"  >
+        <div class="set" >
+    <div id="logo"  ><i class="fa-solid fa-camera" style="color:rgb(157, 6, 157);"></i>VIJAY DIGITAL</div>
+    <div class="mm" > 
+        <a href="./index.html">HOME</a>
+        <a >ABOUT US </a>
+        <a href="./Templates/package.html" >PACKAGES</a>
+        <a href="./Templates/login.html">LOGIN</a>
+        <a href="./Templates/contact.html">CONTACT US</a>
+        </div>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars fa-beat" ></i>
             
+        </div>
+        <div class="bar" > 
+            <a href="./index.html">HOME</a></br>
+            <a >ABOUT US </a></br>
+            <a href="./Templates/package.html" >PACKAGES</a></br>
+            <a href="./Templates/login.html">LOGIN</a></br>
+            <a>CONTACT US</a></br>
+            </div>
 
-                <div class="r" >
-            <a href="https://www.facebook.com/vijay0234?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" style="color: #093ba5; font-size: 40px;"></i> </a>
-            <a href="https://www.instagram.com/vijayvijay2395/?igsh=Y3hhYXprY2Yxdnhi" style="font-size: 40px;"><i class="fa-brands fa-instagram" style="color: #65072d;"></i></a>
-               
-                    
-                    </div>
-        
-        </li>
-        </ul>
 
-    </div>
-        
-    </div>
-    </body>
+</header>    
+<script>
+    const toggleBtn = document.querySelector(".toggle_btn")
+    const toggleBtnIcon = document.querySelector(".toggle_btn  i ")
+    const Bar = document.querySelector(".bar")
+
+    toggleBtn.onclick = function () {
+     Bar.classList.toggle('open')
+     const isOpen= Bar.classList.contains('open')
+    }  
+
+</script>    
+
+
+</body>
 </html>
