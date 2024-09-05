@@ -5,7 +5,7 @@
 }
 #topbar{
     height:50px;
-    width:1300px;
+    width:auto;
     background-color: rgba(6, 6, 6, 0.779);
     color:white;
     position: fixed;
@@ -66,7 +66,7 @@ color:rgba(6, 6, 6, 0.779);
     
     #topbar{
         height:500px;
-        width:414px;
+        width:412px;
         background-image: url(../images/love-marry-me-hd-wallpaper_665280-13659.avif);
         background-size: cover;
         color:white;
