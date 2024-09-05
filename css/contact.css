@@ -62,11 +62,11 @@ color:rgba(6, 6, 6, 0.779);
     border: none ;
 }
  
-@media screen and (max-width:400px){
+@media screen and (max-width:412px){
     
     #topbar{
         height:120px;
-        width:400px;
+        width:412px;
        
         
     }.mm{
@@ -150,7 +150,7 @@ color:rgba(6, 6, 6, 0.779);
     
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:412px){
 
 
     .hi{
