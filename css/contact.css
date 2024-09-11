@@ -62,11 +62,11 @@ color:rgba(6, 6, 6, 0.779);
     border: none ;
 }
  
-@media screen and (max-width:400px){
+@media screen and (max-width:470px){
     
     #topbar{
         height:120px;
-        width:400px;
+        width:470px;
        
         
     }.mm{
@@ -87,6 +87,16 @@ color:rgba(6, 6, 6, 0.779);
    
 
 }
+ .bar a:hover{
+    color:rgb(130, 137, 12);
+ }
+ #logo{
+    color: rgb(150, 8, 150);
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
 
 }
 .hi{
@@ -150,7 +160,7 @@ color:rgba(6, 6, 6, 0.779);
     
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:470px){
 
 
     .hi{
@@ -159,7 +169,7 @@ color:rgba(6, 6, 6, 0.779);
         width:auto;
         background-size:cover;
         background-repeat: no-repeat;
-        color:white;
+        color:rgb(6, 2, 2);
         display: flex;
         transition: all .2s linear;
         
@@ -187,7 +197,7 @@ color:rgba(6, 6, 6, 0.779);
     .r a{
         margin:10px;      
     }
-     #lo{
+    #lo{
         margin-right: 10px;
         font-size: 40px;
         color:#575200;
