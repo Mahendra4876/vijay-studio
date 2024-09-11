@@ -63,11 +63,11 @@ color:rgba(6, 6, 6, 0.779);
     border: none ;
 }
  
-@media screen and (max-width:420px){
+@media screen and (max-width:470px){
     
     #topbar{
         height:110px;
-        width:420px;
+        width:470px;
         background-color: rgba(6, 6, 6, 0.779);
         color:white;
         position: fixed;
@@ -76,14 +76,6 @@ color:rgba(6, 6, 6, 0.779);
         display: none;
        
        }
-  .toggle_btn i {
-    color:white ;
-    margin-left: 150px;
-    margin-top: 15px;
-    display: block;
-    height: 50px;
-
-        }
   .bar{
     display: block;
    
@@ -178,7 +170,7 @@ footer{
     margin-left: 30px;
 
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:470px){
     .content{
         width:auto;
         height:1250px;
