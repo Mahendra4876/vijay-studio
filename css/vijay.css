@@ -15,6 +15,8 @@
     color: rgb(150, 8, 150);
     font-size: large;
     margin-left: 10px;
+    margin-top: 2px;
+    
 }
 .bar{
     display: none;
@@ -62,11 +64,11 @@ color:rgba(6, 6, 6, 0.779);
     border: none ;
 }
  
-@media screen and (max-width:412px){
+@media screen and (max-width:470px){
     
     #topbar{
         height:500px;
-        width:412px;
+        width:470px;
         background-image: url(../images/love-marry-me-hd-wallpaper_665280-13659.avif);
         background-size: cover;
         color:white;
@@ -88,5 +90,14 @@ color:rgba(6, 6, 6, 0.779);
     display: block;
    
 
+}
+#logo{
+    color: rgb(150, 8, 150);
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-shadow: 1px 2px px;
+
+    
 }
 }
